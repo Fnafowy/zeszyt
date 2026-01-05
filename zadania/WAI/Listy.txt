@@ -1,0 +1,98 @@
+<html lang='pl'>
+	<head>
+		<meta charset='utf-8'>
+		<title>
+			MUSTAAAAAAAAAAAAAAAAAAARD
+		</title>
+	</head>
+	<body style="font-size: 30px;">
+		<ol start="62">
+			<li>a</li>
+			<li>b</li>
+			<li>c</li>
+			<li>d</li>
+			<li>e</li>
+			<li>szeszcz sziedem</li>
+		</ol>		
+
+		
+		<ol type="A" start="6">
+			<li>t</li>
+			<li>o</li>
+			<li>m</li>
+			<li>e</li>
+			<li>k</li>
+			<li>-</li>
+		</ol>		
+		
+		<ol type="I">
+			<li>j</li>
+			<li>e</li>
+			<li>k</li>
+			<li>u</li>
+			<li>p</li>
+			<li>e</li>
+		</ol>		
+		
+		<ol type="i">
+			<li>g</li>
+			<li>h</li>
+			<li>i</li>
+			<li>j</li>
+			<li>k</li>
+			<li>l</li>
+		</ol>
+		<ol type="1" start="67">
+			<li> g
+				<ol type="a">
+					<li>h</li>
+					<li>i</li>
+					<li>j</li>
+					<li>k</li>
+				</ol>
+	<ol type="1">
+		<li> -
+			<ol type="A">
+				<li>-
+					<ol type='a' start='3'>
+						<li>-</li>
+						<li>-</li>
+					</ol>
+				</li>
+				<li>-
+					<ol type='a'>
+						<li>-</li>
+						<li>-</li>
+					</ol>
+				</li>
+			</ol>
+		</li>
+		<li> -
+			<ol type='A'>
+				<li>-</li>
+				<li>-</li>
+				<li>-</li>
+				<li>-</li>
+			</ol>
+		</li>
+	</ol>	
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	
+	<ul type='circle'>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>	
+	
+	<ul type='square'>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+	
+	</body>
+</html>

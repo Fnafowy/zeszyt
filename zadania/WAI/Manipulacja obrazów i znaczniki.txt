@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>okok</title>
+		<meta charset='UTF-8'>
+		<meta name='keywords' content='123'>
+		<meta name='author' content='321'>
+	</head>
+<!--  &nbsp - spacja -->
+	<body>
+		<p>yello</p>
+		<hr>
+		<h1>sdsa</h1>
+		<h2>sadf</h2>
+		<h3>jgsd</h3>
+		<h4>mngjo</h4>
+		<h5>nhif</h5>
+		<h6>asfbhi</h6>
+		<u>rtgrr</u>
+		<pre>s     ashka</pre>
+		<strong>laysy</strong>
+		<br>
+		<img src='https://image.ceneostatic.pl/data/products/167912854/p-lay-s-strong-chilli-lime-190g.jpg' width=450px height=100px>
+		<br>
+		<em>dmosdgmno</em>
+		14 <sup>2</sup>
+		H <sub>2</sub> O
+		<p>Albert einstein kiedyś powiedział</p>
+		<blockquote>Połóż swą dłoń na ciepły palnik na minutkę</blockquote>
+		<img src="https://media.tenor.com/x7vBnOD-3ocAAAAe/einstein-einstein-chat-bubble.png" width=450px; height=90px>
+		<br>
+		<q>Twój stary program graficzny</q>
+		<br>
+		<q>Twój stary znacznik html</q>
+		<br>
+		<img src="https://media.tenor.com/x7vBnOD-3ocAAAAe/einstein-einstein-chat-bubble.png" width=250px>
+		<br>
+		<q>Twój stary zarchiwizowany plik</q>
+		<br>
+		<br>
+		<a href='https://www.google.com/search?q=rizzapp' target='_blank'>
+			<img src="https://media.tenor.com/x7vBnOD-3ocAAAAe/einstein-einstein-chat-bubble.png" width=250px>
+		</a>
+		<br>
+		<br>
+		<img src='https://static8.depositphotos.com/1020618/933/i/950/depositphotos_9332658-stock-photo-fire-alphabet-letter-p.jpg' width=100px>
+		<img src='https://media.istockphoto.com/id/507968212/pl/zdj%C4%99cie/czerwone-%C5%9Bwiat%C5%82o-litera-a.jpg?s=612x612&w=0&k=20&c=-5ScbHeZqKUD2NyS9hLdXHSPJNfMZ9VlJwRIABaLUos=' width=100px>
+		<br>
+		<img src="https://media.tenor.com/x7vBnOD-3ocAAAAe/einstein-einstein-chat-bubble.png" width=400px height=200px>
+
+	</body>
+</html>

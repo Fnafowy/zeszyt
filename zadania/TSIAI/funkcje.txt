@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang='pl'>
+	<head>
+		<meta charset='utf-8'>
+		<title>
+			Whattehhelly
+		</title>
+	</head>
+	<body>
+		<script>	
+/*		function zadanie(a,b,c) {
+			if(c>b && c>a) {
+			document.write(c)
+			}
+			else if (a>b && c<a) {
+			document.write(a)
+			}
+			else if (b>a && c<b) {
+			document.write(b)
+			}
+			else 
+			{
+			document.write('Liczby są równe') 
+			} 
+		}
+		
+		zadanie(67,2,3)	*/
+		
+/*		function zadanie(n,x,y) {
+		var cyfra = x
+			for (i=1;i<=n;i++) {
+				document.write(cyfra + '<br>'),
+				cyfra = cyfra + y
+			
+			}
+		}
+		
+		
+		zadanie(10,5,4) */
+		
+		function zadanie(a) {
+		var suma = 1
+		for (i=1; i <= a; i++) {
+			suma=suma*i
+			document.write(suma + '<br>') };
+		}
+		
+		zadanie(5)
+		</script>
+	</body>
+</html>		

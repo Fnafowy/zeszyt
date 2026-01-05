@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang='pl'>
+<head>
+<meta charset='UTF-8'>
+</head>
+<body>
+    <a id="back" href="#"><---</a>
+	<script src="script.js"></script>
+	<br>
+<script>
+/*
+var x = 'śema'
+document.write(Math.abs(-10.00000001))
+document.write('<br>')
+// zaokrąglanie do góry a floooooor w doł
+document.write(Math.ceil(0.0000001)) 
+document.write('<br>')
+//największa lyczba
+document.write(Math.max(1,2,3,42,5,67,7))
+document.write('<br>')
+// potęga
+document.write(Math.pow(8,2))
+document.write('<br>')
+//doc losowa do iluś tam ile chcesz ni
+document.write(Math.floor(Math.random() * 50))
+document.write('<br>')
+//zaooktaglenie
+document.write(Math.round(0.4))
+document.write('<br>')
+//squirt square root yaknow
+document.write(Math.sqrt(121))
+document.write('<br>')
+// toFixed chyba do ilu po przecinku
+//document.write(Math.toFixed(2))
+//document.write('<br>')
+// długość ile znakow
+document.write(x.length)
+document.write('<br>')
+// slice to jakby kaWAŁEK ni
+document.write(x.slice(2,1))
+document.write('<br>')
+// kawałek stringa ni
+document.write(x.substring(0,3))
+document.write('<br>')
+//replace znaki zmienia
+document.write(x.replace('ś','siema'))
+document.write('<br>')
+// biiiiig litersy
+document.write(x.toUpperCase())
+document.write('<br>')
+// trim to spacje usuwa
+document.write(x.trim(4))
+document.write('<br>')
+// split
+document.write(x.split('',4))
+document.write('<br>')
+// charat to znajdujesz chara w miesjczu jakimbytam
+document.write(x.charAt(0)) */
+
+var data = new Date();
+var rok = data.getFullYear()
+var miesiac = data.getMonth()
+var dzien = data.getDate()
+
+document.write(dzien,'.',miesiac + 1 , '.', rok)
+
+var godzina = data.getHours()
+var minuta = data.getMinutes()
+var sekunda = data.getSeconds()
+document.write('<br>',godzina,':',minuta,':',sekunda,'<br>')
+
+switch(data.getDay()) {
+case 0:
+dzienTyg = 'poniedziałek'
+break;
+
+case 1:
+dzienTyg = 'wtorek'
+break;
+
+case 2:
+dzienTyg = 'środa'
+break;
+
+case 3:
+dzienTyg = 'czwartek'
+break;
+
+case 4:
+dzienTyg = 'piątek'
+break;
+
+case 5:
+dzienTyg = 'sobota'
+break;
+
+case 6:
+dzienTyg = 'niedziela'
+break;
+}
+
+switch(data.getMonth()) {
+case 0:
+var miesiacpl = 'styczeń'
+break;
+
+case 1:
+var miesiacpl = 'luty'
+break;
+
+case 2:
+var miesiacpl = 'marzec'
+break;
+
+case 3:
+var miesiacpl = 'kwiecień'
+break;
+
+case 4:
+var miesiacpl = 'maj'
+break;
+
+case 5:
+var miesiacpl = 'czerwiec'
+break;
+
+case 6:
+var miesiacpl = 'lipiec'
+break;
+
+case 7:
+var miesiacpl = 'sierpień'
+break;
+
+case 8:
+var miesiacpl = 'wrzesień'
+break;
+
+case 9:
+var miesiacpl = 'październik'
+break;
+
+case 10:
+var miesiacpl = 'listopad'
+break;
+
+
+case 11:
+var miesiacpl = 'grudzień'
+break;
+}
+
+document.write(dzienTyg,', ', dzien, ' ',miesiacpl,' ', rok)
+</script>
+</body>
+</html>

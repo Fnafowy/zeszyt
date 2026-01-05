@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang='pl'>
+	<head>
+		<meta charset='utf-8'>
+		<title>
+			Formulasz
+		</title>
+		<style>
+		fieldset {
+		background-color: lightblue;
+		}
+		</style>
+	</head>
+	<body>
+		<form>
+			<fieldset>
+			<div style='margin-left:20%;'>
+				Podaj swoje imię (*): <input type='text' required>
+				<br>
+				Podaj swoje nazwisko: <input type='text'>
+				<br>
+				Wybierz płeć (*):
+				<input type='radio' name='yo' checked> Mężczyzna				
+				<input type='radio' name='yo'> Kobieta
+				<br>
+				Data urodzenia:
+				<input type='date'>
+				<br>
+				Podaj adres email (*): 
+				<input type='email' required>
+				<br>
+				ul:	<input type='text' size=20> nr <input type='text' size=4> / <input type='text' size=3> 
+				</select>
+				<br>
+				Kod pocztowy: <input type='text' size=6>
+				<br>
+				Miasto <input type='text' size=15>
+				<br>
+				Województwo (*): <select> 
+					<option default> ------------------------------- </option>
+					<option> Warmińsko-Mazurskie </option>
+					<option> Małopolskie </option>
+					<option> Lubelskie </option>
+					<option> Lubuskie </option>
+					<option> Więcej nie pamiętom</option>
+				</select>
+				<br>
+				Wypisz swoje uwagi:
+				<br>
+				<textarea cols=45 placeholder='Pisz tutaj...'></textarea>
+				<br>
+				Wybierz zainteresowania:
+				<br>
+				<input type='checkbox'> Motoryzacja		
+				<br>
+				<input type='checkbox'> Sport			
+				<br>
+				<input type='checkbox'> Muzyka
+				<br>
+				<input type='checkbox'> Taniec		
+				<br>
+				<input type='checkbox'> Gry komputerowe			
+				<br>
+				<input type='checkbox'> Inne
+				<input type='text'>
+				<br>
+				<button type='submit'>Wyślij</button>
+				<input type='reset'>
+			<div>
+			</fieldset>
+		</form>
+	</body>
